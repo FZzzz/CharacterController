@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{c56d62ce-3d71-46b3-b743-fdedb130be75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Animation">
+      <UniqueIdentifier>{41ce63c9-6341-4759-93a9-f914c878166e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{74124278-5fd5-4350-b885-7051e767ec2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Manager">
+      <UniqueIdentifier>{bf5ffd88-3e6e-4a54-bc7d-99caba2fa233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Render">
+      <UniqueIdentifier>{830b6cf1-837f-4de4-b695-255b204adb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Object">
+      <UniqueIdentifier>{339e14d9-a0d8-4e3e-b274-8d79a8a57b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{98ad3784-e6c1-4841-9f95-a43d8e3522ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{ff44dc34-2293-4adc-a662-d73a7081e377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{8073ed52-ff77-413c-9cdb-75e3ea078901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Manager">
+      <UniqueIdentifier>{4663294b-0471-4719-ab56-8a5086647ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Render">
+      <UniqueIdentifier>{38752bd5-f985-4da4-a4e6-37921756a345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{b1e1f302-7936-4764-94f9-733a3e7ff1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Object">
+      <UniqueIdentifier>{d6f359a8-267a-4fa2-b61b-760951758199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{37864cb1-2ecb-4cd3-a992-61e2ed93d026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{d6230674-4d83-4467-aafa-b94f89b64b2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimCharacter.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetImporter.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFunctions.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Joint.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Source Files\Core\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files\Core\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysXManager.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="SimCharacter.cpp">
+      <Filter>Source Files\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestArticulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ArticulatedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimLink.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imgui_impl_glfw_gl3.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimCharacter.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Joint.h">
+      <Filter>Header Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>Header Files\Core\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFunctions.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetImporter.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Core\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysXManager.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="SimCharacter.h">
+      <Filter>Header Files\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFWApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TestArticulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ArticulatedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimLink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
