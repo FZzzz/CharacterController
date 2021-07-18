@@ -1,6 +1,7 @@
 # CharacterController
 This project is a test program that uses PhysX articulation objects to controll the character motion with pre-captured motion data.
-**Should be refactored in near future**
+
+**The code will be refactored in near future**
 
 ![](https://i.imgur.com/V1NHHtj.gif)
 
