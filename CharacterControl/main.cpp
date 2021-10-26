@@ -14,9 +14,6 @@ int main()
 
 	demoApp->Initialize(1600, 900, "GLEngine");
 
-	/*
-		Add text to App
-	*/
 	if (demoApp->getAppStatus())
 	{
 		demoApp->Run();

@@ -7,7 +7,7 @@
 #include "SimLink.h"
 #include <vector>
 
-using namespace physx;
+//using namespace physx;
 
 class TestArticulation
 {
@@ -33,16 +33,16 @@ public:
 	inline float getDriveStiffness() { return m_stiffness; };
 	inline float getDriveDamping() { return m_damping; };
 	inline float getForceLimit() { return m_forceLimit; };
-	inline PxU32 getInboundJointDof(int link_index) { return m_links[link_index]->getInboundJointDof(); };
+	inline physx::PxU32 getInboundJointDof(int link_index) { return m_links[link_index]->getInboundJointDof(); };
 	
 
 private:
 	std::shared_ptr<PhysXManager>			m_physx_manager;
-	PxPhysics*								m_physics;
-	PxArticulationReducedCoordinate*		m_articulation;
-	PxMaterial*								m_material; 
-	PxArticulationCache*					m_cache;
-	std::vector<PxArticulationLink*>		m_links;
+	physx::PxPhysics*								m_physics;
+	physx::PxArticulationReducedCoordinate*		m_articulation;
+	physx::PxMaterial*								m_material;
+	physx::PxArticulationCache*					m_cache;
+	std::vector<physx::PxArticulationLink*>		m_links;
 	std::vector<std::shared_ptr<SimLink>>					m_sim_links;
 
 	PxArticulationJointReducedCoordinate*	m_control_joint;
@@ -51,7 +51,7 @@ private:
 	float m_stiffness;
 	float m_damping;
 	float m_forceLimit;
-	PxU32 m_dof_starts[3]; // dof_starts[totalLinkCount];
+	physx::PxU32 m_dof_starts[3]; // dof_starts[totalLinkCount];
 
 };
 
